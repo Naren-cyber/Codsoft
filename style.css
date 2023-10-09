@@ -1,0 +1,120 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, h3, p, ul, li {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f4f4f4;
+   margin: 0;
+   padding: 0;
+}
+
+/* Header Styles */
+header {
+   background-color: #366e52;
+   color: #fff;
+   text-align: center;
+   padding: 20px;
+}
+
+header h1 {
+   font-size: 36px;
+   margin: 0;
+}
+
+header p {
+   font-size: 18px;
+}
+
+/* About Section Styles */
+#about {
+   background-color: #fff;
+   padding: 20px;
+   margin: 20px;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(62, 9, 9, 0.2);
+}
+
+#about img {
+   max-width: 50%;
+   height: 50px;
+}
+
+/* Education Section Styles */
+#education {
+   background-color: #fff;
+   padding: 20px;
+   margin: 20px;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(175, 64, 64, 0.2);
+}
+
+.education-item {
+   margin-bottom: 20px;
+}
+
+.education-item h3 {
+   font-size: 24px;
+}
+
+.education-item p {
+   margin: 5px 0;
+   font-size: 16px;
+}
+
+/* Skills Section Styles */
+#skills {
+   background-color: #fff;
+   padding: 20px;
+   margin: 20px;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(121, 22, 22, 0.2);
+}
+
+#skills ul {
+   list-style-type: none;
+}
+
+#skills li {
+   margin: 5px 0;
+}
+
+/* Resume Section Styles */
+#resume {
+   background-color: #fff;
+   padding: 20px;
+   margin: 20px;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#resume a {
+   text-decoration: none;
+   color: #0074D9;
+   font-weight: bold;
+}
+
+/* Contact Section Styles */
+#contact {
+   background-color: #fff;
+   padding: 20px;
+   margin: 20px;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#contact a {
+   text-decoration: none;
+   color: #0074D9;
+   font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+   background-color: #333;
+   color: #fff;
+   text-align: center;
+   padding: 10px;
+}
